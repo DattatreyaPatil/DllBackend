@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLoadingOfDllsApi", "DynamicLoadingOfDllsApi.csproj", "{BBA746AF-18DA-4442-B3FB-E6AADD22D549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstSampleDll", "..\FirstSampleDll\FirstSampleDll.csproj", "{98915571-CD22-4709-B5D8-5F145DBE2524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA746AF-18DA-4442-B3FB-E6AADD22D549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA746AF-18DA-4442-B3FB-E6AADD22D549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA746AF-18DA-4442-B3FB-E6AADD22D549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA746AF-18DA-4442-B3FB-E6AADD22D549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98915571-CD22-4709-B5D8-5F145DBE2524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98915571-CD22-4709-B5D8-5F145DBE2524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98915571-CD22-4709-B5D8-5F145DBE2524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98915571-CD22-4709-B5D8-5F145DBE2524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E468AA1-C3B1-460B-8C5D-82852EC5B150}
+	EndGlobalSection
+EndGlobal
